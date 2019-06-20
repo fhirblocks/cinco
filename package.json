@@ -1,0 +1,30 @@
+{
+  "name": "cinco",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "expo": "^32.0.0",
+    "react": "^16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-camera": "^2.6.0",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-pdf": "^5.0.12",
+    "react-native-qrcode": "^0.2.7",
+    "react-native-qrcode-image": "^0.2.8",
+    "react-native-qrcode-scanner": "^1.2.1",
+    "react-native-swipeout": "^2.3.6",
+    "react-native-view-pdf": "^0.8.2",
+    "react-navigation": "^3.9.1",
+    "rn-fetch-blob": "^0.10.15",
+    "rn-pdf-reader-js": "^0.2.3"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.0.0"
+  },
+  "private": true
+}
