@@ -7,6 +7,7 @@ The Merlin Widget!
 import React from 'react';
 import { Switch, TouchableHighlight, TextInput, ScrollView, StyleSheet, Text, View, Image } from 'react-native';
 import  DatePicker  from 'react-native-datepicker'
+import RadioGroup from 'react-native-radio-buttons-group';
 
 class MerlinWidget extends React.Component {
 

@@ -17,7 +17,7 @@ const resources = {
 
     return (
       <View style={styles.container}>
-        <PDFReader source={{ uri: "https://s3-us-west-2.amazonaws.com/fhirblocksdocs/completedConsentToROI.pdf" }}/>
+        <PDFReader source={{ uri: "https://s3-us-west-2.amazonaws.com/fhirblocksdocs/sample.pdf" }}/>
         <TouchableOpacity
             style={styles.button}
             onPress={() => {
